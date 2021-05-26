@@ -1,0 +1,126 @@
+<section class="page-banner-area page-contact">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-9 col-md-12 col-12 text-center">
+                <div class="page-banner-content">
+                    <h1 class="display-4 font-weight-bold">Contacto</h1>
+                    <p>Si tienes alguna pregunta, no dudes en contactarme.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<br>
+<section class="section" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 col-sm-6 col-md-6">
+                        <br>
+                        <div class="contact-info-block text-center">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h4>Dirección</h4>
+                            <p class="lead">Los Reyes Acozac, Tecámac</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-lg-12 col-sm-6 col-md-6">
+                        <div class="contact-info-block text-center">
+                            <i class="fas fa-envelope"></i>
+                            <h4>Email</h4>
+                            <p class="lead">itzelsanchez357@gmail.com</p>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="col-lg-12 col-sm-6 col-md-6">
+                        <div class="contact-info-block text-center">
+                            <i class="fas fa-mobile-alt"></i>
+                            <h4>Télefono</h4>
+                            <p class="lead">5512402704</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="alert alert-success contact__msg" style="display: none" role="alert">
+                            Su mensaje fue enviado exitosamente.
+                        </div>
+                    </div>
+                </div>
+                <form class="contact_form" action="mail.php">
+                    <div class="row">
+                        <div class="col-sm-6 mb-6">
+                            <div class="form-group">
+                                <label class="h6 small d-block text-uppercase">
+                                    Su nombre
+                                    <span class="text-danger">*</span>
+                                </label>
+
+                                <div class="input-group">
+                                    <input class="form-control" name="name" id="name" required="" placeholder="Itzel Cabrera" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mb-6">
+                            <div class="form-group">
+                                <label class="h6 small d-block text-uppercase">
+                                    Su email
+                                    <span class="text-danger">*</span>
+                                </label>
+
+                                <div class="input-group ">
+                                    <input class="form-control" name="email" id="email" required="" placeholder="ejemplo@gmail.com" type="email">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-100"></div>
+                        <div class="col-sm-6 mb-6">
+                            <div class="form-group">
+                                <label class="h6 small d-block text-uppercase">
+                                    Asunto
+                                    <span class="text-danger">*</span>
+                                </label>
+                                <div class="input-group">
+                                    <input class="form-control" name="subject" id="subject" required="" placeholder="Web design" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 mb-6">
+                            <div class="form-group">
+                                <label class="h6 small d-block text-uppercase">
+                                    Su número teléfonico
+                                    <span class="text-danger">*</span>
+                                </label>
+
+                                <div class="input-group ">
+                                    <input class="form-control" id="phone" name="phone" required="" placeholder="5521346600" type="text">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group mb-5">
+                        <label class="h6 small d-block text-uppercase">
+                            ¿Comó puedo ayudarte?
+                            <span class="text-danger">*</span>
+                        </label>
+
+                        <div class="input-group">
+                            <textarea class="form-control" rows="4" name="message" id="message" required="" placeholder="Hola, me gustaria..."></textarea>
+                        </div>
+                    </div>
+                    <div class="">
+                       <input name="submit" type="submit" class="btn btn-primary btn-circled" value="Enviar Mensaje">
+                       
+                        <p class="small pt-3">Me pondré en contacto con usted en 1-2 días hábiles.</p>
+                    </div>
+                </form>
+            </div>
+
+            
+        </div>
+    </div>
+</section>
